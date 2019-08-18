@@ -12,47 +12,47 @@ Inspired by homework assignment from CMU class 36-401 (Modern Regression) and 36
 
 <b>Dataset</b>
 
-The data file mobility.csv has information on 741 communities. The variable I want to predict is economic mobility; the rest are predictor variables or covariates.
+The data file mobility.csv has information on 741 communities. The variable I want to predict is economic mobility; the rest are predictor variables or covariates. <br/>
 <b>Mobility:</b> The probability that a child born in 1980–1982 into the lowest quin- tile (20%) of household income will be in the top quintile at age 30. Individuals are assigned to the community they grew up in, not the one they were in as adults.
-Population in 2000.
-<b>Urban </b> Is the community primarily urban or rural?
-<b>Black:</b> percentage of individuals who marked black (and nothing else) on cen- sus forms.
-<b>Racial segregation:</b> a measure of residential segregation by race.
-<b>Income segregation:</b> Similarly but for income.
-<b>Segregation of poverty:</b> Specifically a measure of residential segregation for those in the bottom quarter of the national income distribution.
-<b>Segregation of affluence:</b> Residential segregation for those in the top qarter.
-<b>Commute:</b> Fraction of workers with a commute of less than 15 minutes.
-<b>Mean income:</b> Average income per capita in 2000.
-<b>Gini:</b> A measure of income inequality, which would be 0 if all incomes were perfectly equal, and tends towards 100 as all the income is concentrated among the richest individuals (see Wikipedia, s.v. “Gini coefficient”).
-<b>Share 1%:</b> Share of the total income of a community going to its richest 1%.
-<b>Gini bottom 99%:</b> Gini coefficient among the lower 99% of that community.
-<b>Fraction middle class:</b> Fraction of parents whose income is between the na- tional 25th and 75th percentiles.
-<b>Local tax rate:</b> Fraction of all income going to local taxes.
-<b>Local government spending:</b> per capita.
-<b>Progressivity:</b> Measure of how much state income tax rates increase with in- come.
-<b>EITC:</b> Measure of how much the state contributed to the Earned Income Tax Credit (a sort of negative income tax for very low-paid wage earners).
-<b>School expenditures:</b> Average spending per pupil in public schools.
-<b>Student/teacher ratio:</b> Number of students in public schools divided by num- ber of teachers.
-<b>Test scores:</b> Residuals from a linear regression of mean math and English test scores on household income per capita.
-<b>Highschooldropoutrate:</b> Also,residualsfromalinearregressionofthedropout rate on per-capita income.
+Population in 2000. <br/>
+<b>Urban </b> Is the community primarily urban or rural? <br/>
+<b>Black:</b> percentage of individuals who marked black (and nothing else) on cen- sus forms. <br/>
+<b>Racial segregation:</b> a measure of residential segregation by race. <br/>
+<b>Income segregation:</b> Similarly but for income.<br/>
+<b>Segregation of poverty:</b> Specifically a measure of residential segregation for those in the bottom quarter of the national income distribution. <br/>
+<b>Segregation of affluence:</b> Residential segregation for those in the top qarter. <br/>
+<b>Commute:</b> Fraction of workers with a commute of less than 15 minutes. <br/>
+<b>Mean income:</b> Average income per capita in 2000. <br/>
+<b>Gini:</b> A measure of income inequality, which would be 0 if all incomes were perfectly equal, and tends towards 100 as all the income is concentrated among the richest individuals (see Wikipedia, s.v. “Gini coefficient”). <br/>
+<b>Share 1%:</b> Share of the total income of a community going to its richest 1%. <br/>
+<b>Gini bottom 99%:</b> Gini coefficient among the lower 99% of that community. <br/>
+<b>Fraction middle class:</b> Fraction of parents whose income is between the na- tional 25th and 75th percentiles. <br/>
+<b>Local tax rate:</b> Fraction of all income going to local taxes. <br/>
+<b>Local government spending:</b> per capita. <br/>
+<b>Progressivity:</b> Measure of how much state income tax rates increase with in- come. <br/>
+<b>EITC:</b> Measure of how much the state contributed to the Earned Income Tax Credit (a sort of negative income tax for very low-paid wage earners). <br/>
+<b>School expenditures:</b> Average spending per pupil in public schools. <br/>
+<b>Student/teacher ratio:</b> Number of students in public schools divided by num- ber of teachers. <br/>
+<b>Test scores:</b> Residuals from a linear regression of mean math and English test scores on household income per capita. <br/>
+<b>Highschooldropoutrate:</b> Also,residualsfromalinearregressionofthedropout rate on per-capita income. <br/>
 Colleges per capita
-<b>College tuition:</b> in-state, for full-time students
-<b>College graduation rate:</b> Again, residuals from a linear regression of the actual graduation rate on household income per capita.
-<b>Labor force participation:</b> Fraction of adults in the workforce.
-<b>Manufacturing:</b> Fraction of workers in manufacturing.
-<b>Chinese imports:</b> Growth rate in imports from China per worker between 1990 and 2000.
-<b>Teenage labor:</b> fraction of those age 14–16 who were in the labor force.
-<b>Migration in:</b> Migration into the community from elsewhere, as a fraction of 2000 population.
-<b>Migration out:</b> Ditto for migration into other communities.
-<b>Foreign:</b> fraction of residents born outside the US.
-<b>Social capital:</b> Index combining voter turnout, participation in the census, and participation in community organizations.
-<b>Religious:</b> Share of the population claiming to belong to an organized religious body.
-<b>Violent crime:</b> Arrests per person per year for violent crimes.
-<b>Singlemotherhood:</b> Number of single female household swith children divided by the total number of households with children.
-<b>Divorced:</b> Fraction of adults who are divorced.
-<b>Married:</b> Ditto.
-<b>Longitude:</b> Geographic coordinate for the center of the community
-<b>Latitude:</b> Ditto
-<b>ID:</b> A numerical code, identifying the community.
-<b>Name:</b> the name of principal city or town.
-<b>State:</b> the state of the principal city or town of the community.
+<b>College tuition:</b> in-state, for full-time students <br/>
+<b>College graduation rate:</b> Again, residuals from a linear regression of the actual graduation rate on household income per capita.  <br/>
+<b>Labor force participation:</b> Fraction of adults in the workforce.  <br/>
+<b>Manufacturing:</b> Fraction of workers in manufacturing.  <br/>
+<b>Chinese imports:</b> Growth rate in imports from China per worker between 1990 and 2000.  <br/>
+<b>Teenage labor:</b> fraction of those age 14–16 who were in the labor force.  <br/>
+<b>Migration in:</b> Migration into the community from elsewhere, as a fraction of 2000 population.  <br/>
+<b>Migration out:</b> Ditto for migration into other communities.  <br/>
+<b>Foreign:</b> fraction of residents born outside the US.  <br/>
+<b>Social capital:</b> Index combining voter turnout, participation in the census, and participation in community organizations.  <br/>
+<b>Religious:</b> Share of the population claiming to belong to an organized religious body.  <br/>
+<b>Violent crime:</b> Arrests per person per year for violent crimes.  <br/>
+<b>Singlemotherhood:</b> Number of single female household swith children divided by the total number of households with children.  <br/>
+<b>Divorced:</b> Fraction of adults who are divorced.  <br/>
+<b>Married:</b> Ditto.  <br/>
+<b>Longitude:</b> Geographic coordinate for the center of the community  <br/>
+<b>Latitude:</b> Ditto  <br/>
+<b>ID:</b> A numerical code, identifying the community.  <br/>
+<b>Name:</b> the name of principal city or town.  <br/>
+<b>State:</b> the state of the principal city or town of the community.  <br/>
